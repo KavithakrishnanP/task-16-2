@@ -1,0 +1,55 @@
+
+.head{
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-align: center;
+}
+.heading{
+    text-align:center;
+}
+form{
+    border:black;
+     border-width:2px; 
+     border-style:solid; 
+     padding: 50px;
+}
+.details{
+    margin-top:0px;
+    margin-right:0px;
+  border:black;
+   border-width:2px; 
+   border-style:solid;
+   padding: 5px;
+   text-align:right;
+}
+.img{
+    border:black;
+    border-radius: 6px;
+    border-width:2px; 
+    border-style:solid;
+    text-align:center;
+    padding: 20px;
+    width:100px;
+    height:150px;
+    margin-top: 50px;
+margin-left:50px;
+   
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+  
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
